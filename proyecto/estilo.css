@@ -1,0 +1,92 @@
+header {
+    background-color: rgba(8, 40, 184, 0.993);
+    color:rgb(255, 255, 255);
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    }
+
+.zoom:hover{
+    transform: scale(2);
+    transition: transform .5s;
+}
+
+.centrado {
+    text-align: center;
+    font: oblique bold cursive;
+    font: oblique bold 100% cursive;
+}
+
+.card-header {
+    background-color: rgb(255, 255, 255);
+}
+
+
+body{
+    padding: 15px;
+    background-color:#686968;
+    color: rgb(0, 0, 0);
+}
+
+button {
+    background-color: rgba(3, 3, 3, 0.993);
+    font: oblique bold cursive;
+    font: oblique bold 100% cursive;
+}
+
+.btn{
+    background-color: rgba(90, 196, 238, 0.993);
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.btn-outline-light{
+    background-color: greenyellow;
+    color: #000;
+}
+
+.dropdown-menu{
+    background-color: rgb(0, 0, 0);
+}
+
+.btn-warning {
+    color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.card {
+background-color: rgb(0, 0, 0);
+color: rgb(211, 71, 71);
+}
+
+h1{
+    color: rgb(238, 23, 23);
+}
+
+.btn-danger{
+    color: #000;
+    background-color: #ee1d1d;
+}
+
+p {
+    font: oblique bold 100% cursive;
+  }
+
+.card-title{
+    font: oblique bold 120% cursive;
+}
+
+table{
+    text-align: center;
+}
+
+.card-text{
+    color: yellow;
+}
+
+.tec-text{
+    color: cyan;
+}

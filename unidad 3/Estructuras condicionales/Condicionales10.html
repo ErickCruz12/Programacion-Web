@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script>
+        let edad, resultado;
+        edad = window.prompt("Ingresa tu edad", "0");
+        if (edad >= 18 && edad <= 120)
+            resultado = " BIENVENIDO";
+        else {
+            if (edad <= 0 || edad >= 120) {
+                alert(`Dato incorrecto Ingrese una edad mayor a 1 y menor a 120 `);
+            }
+            else {
+                resultado = " No tiene acceso al portal web";
+            }
+        }
+        document.write(`<h3> ${resultado} </h3>`);
+    </script>
+</head>
+
+</html

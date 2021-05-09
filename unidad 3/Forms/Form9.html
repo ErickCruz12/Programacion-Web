@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<title>Promedio ponderado</title>
+
+<body>
+    <p>
+        <label>Ingrese la nota 1</label>
+        <input id="nota1" type="number">
+        <label>Ingrese valor ponderado 1</label>
+        <input id="ponderado1" type="number">
+        <br>
+        <br>
+        <label>Ingrese la nota 2</label>
+        <input id="nota2" type="number">
+        <label>Ingrese valor ponderado 2</label>
+        <input id="ponderado2" type="number">
+        <button onclick="multiplica()">Calcular</button>
+    </p>
+    <h3>Promedio ponderado: <span id="promedio"></span></h3>
+
+    <script>
+        function multiplica() {
+            var valor1 = document.getElementById("nota1").value;
+            var valor2 = document.getElementById("nota2").value;
+            var pond1 = document.getElementById("ponderado1").value;
+            var pond2 = document.getElementById("ponderado2").value;
+            document.getElementById("promedio").innerHTML = (valor1 * (pond1/100))+(valor2 * (pond2/100));
+        }
+    </script>
+</body>
+
+</html>

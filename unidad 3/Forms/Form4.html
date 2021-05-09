@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Datos en Formularios </title>
+    <script>
+        function operacion() {
+            let numero = document.fdatos.entrada.value 
+            resultado=numero * numero;
+            document.writeln(`El cuadrado del numero ingresado es: ${resultado} `)
+            resultado=numero * numero * numero;
+            document.writeln(`El cubo del numero ingresado es:${resultado} `)
+        }
+    </script>
+    
+</head>
+
+<body>
+    <form name="fdatos">
+        Ingrese un numero <input type="text" size="10" name="entrada" />
+        <input type="button" value="Pulsa aquí" onclick="operacion()" />
+    </form>
+</body>
+
+</html>

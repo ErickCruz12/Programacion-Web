@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<title>Conversor de temperatura</title>
+
+<body>
+    <p>
+        <label>Ingrese la temperatura en Farenheit</label>
+        <input id="inputFarenheit" type="number">
+        <button onclick="FarenheitCelsius()">Convertir</button>
+    </p>
+    <h3>Calcius: <span id="Celcius"></span></h3>
+
+    <script>
+        function FarenheitCelsius() {
+            var temp = document.getElementById("inputFarenheit").value;
+            document.getElementById("Celcius").innerHTML = ((temp - 32)*5/9);
+        }
+    </script>
+</body>
+
+</html>

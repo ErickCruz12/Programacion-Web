@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="text/html; charset=utf-8">
+    <script>
+        let dato1,dato2;
+        dato1 = window.prompt("Ingresa un nombre", "0"); 
+        dato2 = window.prompt("Ingresa el segundo nombre", "0");
+        function Saludo(dato1, dato2) {
+            document.getElementById("salida").innerHTML = `Hola ${dato1} y ${dato2}`;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Función con dos parámetros</h1>
+    <p>Saluda a dos personas.</p></br>
+    <p id="salida">Aquí el resultado</p>
+
+    <script>
+        Saludo(dato1, dato2);
+    </script>
+
+</body>
+</html>

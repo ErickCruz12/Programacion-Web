@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <script>
+        let numero;
+        dato1 = prompt("Ingrese un numero", "0");
+        numero = parseInt(dato1);
+        if (numero >= 1 && numero <= 127) {
+            resultat = " Tipo A";
+        }
+        else {
+            if (numero >= 128 && numero <= 191)
+                resultat = " Tipo B";
+            if (numero >= 192 && numero <= 291)
+                resultat = " Tipo C";
+        }
+        document.write(`El resultado es ${resultat}`);
+    </script>
+    </body>
+
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Datos en Formularios </title>
+    <script>
+        function operacion() {
+            let porcentaje = document.fdatos.entrada.value 
+            resultado=porcentaje * 0.10;
+            document.writeln(`El 10% del numero ingresado es ${resultado} `)
+        }
+    </script>
+</head>
+
+<body>
+    <form name="fdatos">
+        Ingrese un numero <input type="text" size="10" name="entrada" />
+        <input type="button" value="Pulsa aquí" onclick="operacion()" />
+    </form>
+</body>
+
+</html>
